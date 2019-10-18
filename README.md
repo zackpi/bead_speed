@@ -7,8 +7,13 @@ Keep track of your microbead speeds :)
 ## how to run
 
 Make sure that you have [python3 and pip3](https://realpython.com/installing-python/) installed.
-Then, make sure that your directory full of microbead image files is in the same directory as *bead_speed.py*.
-At the command line, in that same directory, run the following:
+You'll also need (opencv)[], which is the library used to display and draw on the images. The following should work in most scenarios:
+```
+pip3 install opencv-python
+```
+
+Make sure that your directory full of microbead image files is in the same directory as *bead_speed.py*.
+Now you're ready to actually run the program. At the command line, in that same directory, run the following:
 ```
 python3 bead_speed.py
 ```
