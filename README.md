@@ -7,7 +7,7 @@ Keep track of your microbead speeds :)
 ## how to run
 
 Make sure that you have [python3 and pip3](https://realpython.com/installing-python/) installed.
-You'll also need (opencv)[https://opencv.org/], which is the library used to display and draw on the images. The following should work in most scenarios:
+You'll also need [opencv](https://opencv.org/), which is the library used to display and draw on the images. The following should work in most scenarios:
 ```
 pip3 install opencv-python
 ```
